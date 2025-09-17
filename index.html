@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Love</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #faa3a3;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+    }
+    .profile {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ff4081;
+    }
+    .profile h1 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+    .profile p {
+      color: #777;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="perfil.jpg" alt="Foto de Bella Love">
+      <h1>Bella Love 💖</h1>
+      <p>Bienvenidos a mi mundo ✨</p>
+    </div>
+
+    <div class="gallery">
+      <!-- FOTOS -->
+      <img src="foto1.jpg" alt="Foto 1">
+      <img src="foto2.jpg" alt="Foto 2">
+      <img src="foto3.jpg" alt="Foto 3">
+      <img src="foto4.jpg" alt="Foto 4">
+      <img src="foto5.jpg" alt="Foto 5">
+      <img src="foto6.jpg" alt="Foto 6">
+      <img src="foto7.jpg" alt="Foto 7">
+      <img src="foto8.jpg" alt="Foto 8">
+      <img src="foto9.jpg" alt="Foto 9">
+      <img src="foto10.jpg" alt="Foto 10">
+      <img src="foto11.jpg" alt="Foto 11">
+      <img src="foto12.jpg" alt="Foto 12">
+      <img src="foto13.jpg" alt="Foto 13">
+      <!-- VIDEOS -->
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</body>
+</html>
